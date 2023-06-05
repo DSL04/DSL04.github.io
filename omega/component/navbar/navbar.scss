@@ -1,0 +1,32 @@
+.navbar-item img {
+    max-height: 90px;
+    width: 173px;
+    height: 87px;
+    background: url(../../public/asset/logo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.button {
+    color: #000000;
+    font-family: '?????';
+    border: transparent;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+
+.button:hover {
+    background-image: url(../../public/asset/pic3color.png);
+    color: white;
+}
+
+.navbar {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)),
+    url(../../public/asset/pic2color.png), no-repeat;
+}
+
