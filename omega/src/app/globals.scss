@@ -19,15 +19,22 @@
 }
 
 .slogan {
-  width: 619px;
-  height: 89px;
+  width: auto;
   font-family: '?????';
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
+  
 }
+
+@media (max-width: 903px) {
+  .slogan {
+    font-size: 25px; /* Set a smaller font size for smaller screens */
+  }
+}
+
 
 .backgroundVideo {
   width: 100%;
@@ -41,9 +48,7 @@
 }
 
 .serviceText {
-width: 1100px;
-height: 136px;
-
+width: auto;
 font-family: '?????';
 font-style: normal;
 font-weight: 400;
@@ -51,7 +56,27 @@ font-size: 25px;
 line-height: 25px;
 text-align: center;
 letter-spacing: 0.2em;
+flex: 1;
+flex-shrink: 1;
 
+}
+
+@media (max-width: 903px) {
+  .serviceText {
+    font-size: 17px; /* Set a smaller font size for smaller screens */
+  }
+}
+
+@media (max-width: 621px) {
+  .serviceText {
+    font-size: 12px; /* Set a smaller font size for smaller screens */
+  }
+}
+
+@media (max-width: 443px) {
+  .serviceText {
+    font-size: 10px; /* Set a smaller font size for smaller screens */
+  }
 }
 
 body {
@@ -64,4 +89,13 @@ body {
   //   rgb(var(--background-start-rgb));
   // background: linear-gradient(135deg, #FFFFFF, #FFFF,  #5e5f5f, #fcfcfc);
 }
+
+.button2 {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  font-size: 30px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  background-blend-mode: difference;
+}
+
+
 

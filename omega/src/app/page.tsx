@@ -3,7 +3,7 @@ import './globals.scss'
 export default function Home() {
   return (
     <main className="flex flex-col items-center">
-      <h1 className='slogan mt-2 '>WHERE STYLE, PRECISION, AND ART CONVERGE</h1>
+      <h1 className='slogan mt-4 '>WHERE STYLE, PRECISION, AND ART CONVERGE</h1>
       {/* Pictures and animation */}
       <div className=' flex'>
         <div className='backgroundVideo flex w-auto h-auto'>
@@ -11,15 +11,25 @@ export default function Home() {
       </div>
 
       {/* Service description */}
-      <div className='flex mt-2'>
+      <div className=' flex-wrap mt-2 mb-5'>
       <h1 className='serviceText'>OMEGA BARBERSHOP IS A PREMIER DESTINATION FOR MEN'S GROOMING, WHERE EXPERT BARBERS COMBINE THEIR ARTISTRY, PRECISION CUTTING TECHNIQUES, AND IMPECCABLE STYLE TO CREATE TAILORED LOOKS THAT EMBODY CONFIDENCE AND SOPHISTICATION. </h1>
       </div>
 
       {/* Book Now Section */}
-      <div className=' flex w-auto h-auto'>
-        <img className=' drop-shadow-md w-1/3' src='https://openailabsprodscus.blob.core.windows.net/private/user-ZLYRl1UFwLxSZOmJuOI31HjU/generations/generation-xi46BwwzhuHHI4Ir84KNdq1z/image.webp?st=2023-06-04T21%3A24%3A27Z&se=2023-06-04T23%3A22%3A27Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/webp&skoid=15f0b47b-a152-4599-9e98-9cb4a58269f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-06-04T20%3A43%3A06Z&ske=2023-06-11T20%3A43%3A06Z&sks=b&skv=2021-08-06&sig=ykN/HNM0wUDdikOKmmO4uQaED8grIdZ5sDrCE4RuFW4%3D'/>
-        <img className=' drop-shadow-md w-1/3' src='https://openailabsprodscus.blob.core.windows.net/private/user-ZLYRl1UFwLxSZOmJuOI31HjU/generations/generation-sEgEtXZ7rtUE20cwC3dMx8Ci/image.webp?st=2023-06-04T21%3A24%3A27Z&se=2023-06-04T23%3A22%3A27Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/webp&skoid=15f0b47b-a152-4599-9e98-9cb4a58269f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-06-04T20%3A43%3A06Z&ske=2023-06-11T20%3A43%3A06Z&sks=b&skv=2021-08-06&sig=T0Y1%2BIt5GCx6qPMpofzJGAsXLioU9FQftmX15ReCdKM%3D'/>
-        <img className=' drop-shadow-md w-1/3' src='https://openailabsprodscus.blob.core.windows.net/private/user-ZLYRl1UFwLxSZOmJuOI31HjU/generations/generation-rtyPBAPWLwf8WYGZ8R31SuaR/image.webp?st=2023-06-04T21%3A24%3A27Z&se=2023-06-04T23%3A22%3A27Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/webp&skoid=15f0b47b-a152-4599-9e98-9cb4a58269f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-06-04T20%3A43%3A06Z&ske=2023-06-11T20%3A43%3A06Z&sks=b&skv=2021-08-06&sig=6laumDLVkFN2jqRsl0xGdDtX/nIEROUgJRt%2BlUM4Mc4%3D'/>
+      <div className=' flex w-auto h-auto justify-center items-center'>
+        <div className=' flex w-auto h-auto'>
+          {/* <div className=''><img className=' backgroundImage1'/></div>
+          <div className='w-1/3'><img className=' backgroundImage2'/></div>
+          <div className='drop-shadow-md w-1/3'><img className=' backgroundImage3'/></div> */}
+          <img className=' w-1/3 drop-shadow-md' src='https://i.pinimg.com/564x/aa/fe/7b/aafe7bf0bba0e677f119e6ccd3cf44ed.jpg' />
+          <img className=' w-1/3 drop-shadow-md' src='https://d7hftxdivxxvm.cloudfront.net/?height=648&quality=80&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2F0qhKbRromXYD51EZAcq6EQ%2Fnormalized.jpg&width=800' />
+          <img className=' w-1/3 drop-shadow-md' src='https://images.saatchiart.com/saatchi/943095/art/6391347/5461107-HSC00001-7.jpg' />
+
+          
+        </div>
+        <div className=' flex absolute w-auto'>
+          <button className='button button2 bg-blend-difference'>BOOK NOW</button>
+        </div>
       </div>
     </main>
   )

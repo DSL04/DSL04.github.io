@@ -1,13 +1,13 @@
+import { useEffect } from 'react';
 import '../navbar/navbar.scss'
+
 
 const Navbar = () => {
     return (
-        <nav className="navbar" role="navigation" aria-label="main navigation">
+      <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bulma.io">
-          </a>
 
-          <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -16,10 +16,10 @@ const Navbar = () => {
 
         <div id="navbarBasicExample" className="navbar-menu">
           <div className="navbar-start">
-            <a className="navbar-item">
+            <a className="navbar-item" href='http://localhost:3000/'>
               <img/>
             </a>
-        </div>
+          </div>
 
           <div className="navbar-end">
             <div className="navbar-item">
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <a className="button">
                   CONTACT
                 </a>
-                <a className="button">
+                <a className="button" href='http://localhost:3000/team'>
                   TEAM
                 </a>
                 <a className="button">
@@ -39,7 +39,9 @@ const Navbar = () => {
         </div>
       </nav>
 
-    );
+    );   
 }
+
+
 
 export default Navbar;

@@ -28,5 +28,15 @@
     backdrop-filter: blur(2px);
     background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)),
     url(../../public/asset/pic2color.png), no-repeat;
+    min-width: none;
+}
+
+@media (max-width: 1024px){
+    .navbar {
+        min-height: 95px;
+    }
+    .navbar-menu {
+        display: contents;
+    }
 }
 

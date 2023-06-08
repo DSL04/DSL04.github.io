@@ -15,3 +15,43 @@
     background-size: cover;
 
 }
+
+.text {
+    width: auto;
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    flex: 1;
+    flex-shrink: 1;
+}
+
+.contactTitle {
+    width: auto;
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    flex: 1;
+    flex-shrink: 1;
+}
+
+.emailLogo {
+    background: url(../../public/asset/emaiLogo.png);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+
+.phoneLogo {
+    background: url(../../public/asset/phoneLogo.jpg);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+}
