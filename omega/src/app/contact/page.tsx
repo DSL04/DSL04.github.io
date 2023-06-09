@@ -6,7 +6,7 @@ export default function Contact() {
         <div className='backgroudImage'>
           <div className='flex justify-center w-auto h-auto'>
             {/* <div className=' backgroundImageBlur'></div> */}
-            <div className=' mt-3'> <h1 className='title'>TITLE</h1></div>
+            <div className=' mt-3'> <h1 className='title'>FIND US AT...</h1></div>
           </div>
 
           <div className=' w-auto h-full flex justify-evenly items-center'>
