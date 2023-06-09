@@ -1,0 +1,112 @@
+.backgroudImage {
+    background: url(../../../public/asset/pic6color2.0.png);
+    width: -webkit-fill-available;
+    height: 651px;
+    background-size: cover;
+    background-position: right;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    // filter: blur(2px);
+
+
+}
+
+.backgroudImageBlur {
+    filter: blur(2px);
+}
+
+.title {
+
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+    text-shadow:
+    -1px -1px 0 #171111,
+    1px -1px 0 #171111,
+    -1px 1px 0 #171111,
+    1px 1px 0 #171111;
+}
+
+.locationImage {
+    background: url(../../../public/asset/locationIcon.png);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.phoneImage {
+    background: url(../../../public/asset/phoneIcon.png);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.hoursImage {
+    background: url(../../../public/asset/timeIcon.png);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.title2 {
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+}
+
+.infoText {
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF; 
+}
+
+.gpsContainer {
+    width: -webkit-fill-available;
+    height: 55vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ottawaGPS {
+    width: 40%;
+    height: 55vh;
+    border-radius: 5%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+
+}
+
+.torontoGPS {
+    width: 40%;
+    height: 55vh;
+    border-radius: 5%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+

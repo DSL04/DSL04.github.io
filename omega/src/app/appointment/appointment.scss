@@ -1,0 +1,28 @@
+.serviceTitleImage {
+    background: url(../../../public/asset/pic9color.png);
+    width: -webkit-fill-available;
+    height: 156px;
+    background-size: cover;
+    background-position: right;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+
+}
+
+.serviceTitleText {
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+    text-shadow:
+    -1px -1px 0 #171111,
+    1px -1px 0 #171111,
+    -1px 1px 0 #171111,
+    1px 1px 0 #171111;
+    
+    // border: 1px solid #000000;
+}

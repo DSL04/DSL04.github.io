@@ -24,13 +24,13 @@ const Navbar = () => {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <a className="button">
+                <a className="button" href='http://localhost:3000/contact'>
                   CONTACT
                 </a>
                 <a className="button" href='http://localhost:3000/team'>
                   TEAM
                 </a>
-                <a className="button">
+                <a className="button" href='http://localhost:3000/appointment'>
                   SERVICES & APPOINTMENTS
                 </a>
               </div>
