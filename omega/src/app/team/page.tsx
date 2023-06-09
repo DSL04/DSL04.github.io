@@ -7,8 +7,7 @@ export default function team() {
             {/* Top Image with Title */}
             <div className=' flex  justify-center items-center'>
                 <div className=' titleImage'></div>
-                <div className='absolute'><h1 className='titleText'>OUR EXPERT BARBERS</h1></div>
-
+                <div className='absolute'><h1 className='titleText'>THE ARTISTS</h1></div>
             </div>
 
             <div className=' flex-col mt-4'>
@@ -52,7 +51,7 @@ export default function team() {
                         <div className=' flex justify-evenly mt-60 mb-3'>
                             <div className=' w-1/3 flex-wrap'>
                               <ul className='ul'>
-                                <li className='li'>Winner of the "Best Barber in Toronto" award, 2021</li>
+                                <li className=''>Winner of the "Best Barber in Toronto" award, 2021</li>
                                 <li className='li'>Featured in Men's Grooming Magazine for his exceptional razor techniques</li>
                                 <li className='li'>Official barber for various Toronto-based celebrities and influencers</li>
                               </ul>  
