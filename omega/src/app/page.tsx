@@ -4,14 +4,9 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center">
       <h1 className='slogan mt-4 '>WHERE STYLE, PRECISION, AND ART CONVERGE</h1>
-      {/* Pictures and animation */}
-      <div className=' flex'>
-        <div className='backgroundVideo flex w-auto h-auto'>
-        </div>
-      </div>
 
       {/* Service description */}
-      <div className=' flex-wrap mt-2 mb-5'>
+      <div className=' flex-wrap mt-8 mb-5'>
       <h1 className='serviceText'>OMEGA BARBERSHOP IS A PREMIER DESTINATION FOR MEN'S GROOMING, WHERE EXPERT BARBERS COMBINE THEIR ARTISTRY, PRECISION CUTTING TECHNIQUES, AND IMPECCABLE STYLE TO CREATE TAILORED LOOKS THAT EMBODY CONFIDENCE AND SOPHISTICATION. </h1>
       </div>
 
@@ -28,7 +23,7 @@ export default function Home() {
           
         </div>
         <div className=' flex absolute w-auto'>
-          <button className='button button2 bg-blend-difference'>BOOK NOW</button>
+          <a href='http://localhost:3000/appointment' className='button button2 bg-blend-difference'>BOOK NOW</a>
         </div>
       </div>
     </main>

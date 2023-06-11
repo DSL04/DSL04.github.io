@@ -1,84 +1,3 @@
-.serviceTitleImage {
-    background: url(../../../public/asset/pic1color.png);
-    width: -webkit-fill-available;
-    height: 156px;
-    background-size: cover;
-    background-position: right;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(2px);
-    background-position: top;
-
-}
-
-.serviceTitleText {
-    font-family: '?????';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
-    letter-spacing: 0.2em;
-
-    color: #FFFFFF;
-    text-shadow:
-    -1px -1px 0 #171111,
-    1px -1px 0 #171111,
-    -1px 1px 0 #171111,
-    1px 1px 0 #171111;
-    
-    // border: 1px solid #000000;
-}
-
-.imageStyling {
-    border: 4px solid #000000;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));   
-}
-
-.lineupSwitch {
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-
-.serviceText {
-    font-family: '?????';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.2em;
-
-    color: #000000;
-}
-
-.cutDescriptionText {
-    font-family: '?????';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.2em;
-
-    color: #000000;
-}
-
-.button3 {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)),
-    url(../../../public/asset/pic5color.png), no-repeat;
-    min-width: none; 
-}
-
-.button3:hover {
-    background: url(../../../public/asset/pic1color.png) !important;
-}
-
-
-
-//Modal Styling
-
 .modal-card {
     
 }
@@ -90,13 +9,13 @@
 }
 
 .modal-card-body {
-    background: url(../../../public/asset/pic3color.png);
+    background: url(../../public/asset/pic3color.png);
     background-size: cover;  
     padding: 0px;  
 }
 
 .logo {
-    background: url(../../../public/asset/logo.png);
+    background: url(../../public/asset/logo.png);
     background-size: cover;
     background-position-y: center;
     height: 90px;
@@ -175,7 +94,7 @@
 }
 
 .nextButton:hover{
-    background: url(../../../public/asset/pic2color.png) !important;
+    background: url(../../public/asset/pic2color.png) !important;
 }
 
 .returnButton {
@@ -192,7 +111,7 @@
 }
 
 .returnButton:hover {
-    background: url(../../../public/asset/pic2color.png) !important;
+    background: url(../../public/asset/pic2color.png) !important;
 
 }
 
