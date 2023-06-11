@@ -22,8 +22,8 @@ The Omega App is a web application built with Next.js that allows users to book 
 
 ## Folder Structure
 
-- `/pages`: Contains the Next.js page components
-- `/components`: Reusable UI components
+- `/app`: Contains the Next.js page components
+- `/component`: Reusable UI components
 - `/public`: Static files (images, etc.)
 
 ## Acknowledgements
