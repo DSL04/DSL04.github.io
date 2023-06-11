@@ -1,6 +1,6 @@
 # SEG-3125-Project-1/ OMEGA
 
-The Barbershop App is a web application built with Next.js that allows users to book appointments with barbers. It provides a seamless and user-friendly interface for customers to view available services, select a barber, choose a date and time, and make a booking.
+The Omega App is a web application built with Next.js that allows users to book appointments with barbers. It provides a seamless and user-friendly interface for customers to view available services, select a barber, choose a date and time, and make a booking.
 
 ## Features
 
