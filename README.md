@@ -8,7 +8,7 @@ To run this project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/your-username/your-repo.git](https://github.com/DSL04/SEG-3125-Project-1.git)
+git clone https://github.com/DSL04/Omega.git
 
 # Install the dependencies
 npm install
