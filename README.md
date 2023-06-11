@@ -30,4 +30,4 @@ The Barbershop App is a web application built with Next.js that allows users to 
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Bulma CSS Documentation](https://docs.mongodb.com](https://bulma.io/)
+- [Bulma CSS Documentation](https://bulma.io/)
