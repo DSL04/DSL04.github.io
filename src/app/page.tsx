@@ -1,5 +1,11 @@
 import "./globals.scss"
 
+const serviceText = (text : string) => {
+  return (
+    <>{text}</>
+  )
+}
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center">
@@ -7,7 +13,7 @@ export default function Home() {
 
       {/* Service description */}
       <div className="flex-wrap mt-24 mb-5">
-      <h1 className="serviceText"></h1>
+      <h1 className="serviceText">{ serviceText("OMEGA BARBERSHOP IS A PREMIER DESTINATION FOR MEN'S GROOMING, WHERE EXPERT BARBERS COMBINE THEIR ARTISTRY, PRECISION CUTTING TECHNIQUES, AND IMPECCABLE STYLE TO CREATE TAILORED LOOKS THAT EMBODY CONFIDENCE AND SOPHISTICATION.")} </h1>
       </div>
 
       {/* Book Now Section */}
