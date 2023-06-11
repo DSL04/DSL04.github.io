@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className='slogan mt-4 '>WHERE STYLE, PRECISION, AND ART CONVERGE</h1>
 
       {/* Service description */}
-      <div className=' flex-wrap mt-8 mb-5'>
+      <div className=' flex-wrap mt-24 mb-5'>
       <h1 className='serviceText'>OMEGA BARBERSHOP IS A PREMIER DESTINATION FOR MEN'S GROOMING, WHERE EXPERT BARBERS COMBINE THEIR ARTISTRY, PRECISION CUTTING TECHNIQUES, AND IMPECCABLE STYLE TO CREATE TAILORED LOOKS THAT EMBODY CONFIDENCE AND SOPHISTICATION. </h1>
       </div>
 
