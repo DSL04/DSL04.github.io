@@ -2,6 +2,20 @@
 
 The Omega App is a web application built with Next.js that allows users to book appointments with barbers. It provides a seamless and user-friendly interface for customers to view available services, select a barber, choose a date and time, and make a booking.
 
+## Getting Started
+
+To run this project locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone [https://github.com/your-username/your-repo.git](https://github.com/DSL04/SEG-3125-Project-1.git)
+
+# Install the dependencies
+npm install
+
+# Start the development server
+npm run dev
+
 ## Features
 
 - Browse team page
