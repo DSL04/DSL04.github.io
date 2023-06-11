@@ -23,7 +23,7 @@ export default function Home() {
           
         </div>
         <div className=' flex absolute w-auto'>
-          <a href='http://localhost:3000/appointment' className='button button2 bg-blend-difference'>BOOK NOW</a>
+          <a href='/appointment' className='button button2 bg-blend-difference'>BOOK NOW</a>
         </div>
       </div>
     </main>

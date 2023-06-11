@@ -16,7 +16,7 @@ const Navbar = () => {
 
         <div id="navbarBasicExample" className="navbar-menu">
           <div className="navbar-start">
-            <a className="navbar-item" href='http://localhost:3000/'>
+            <a className="navbar-item" href='/'>
               <img/>
             </a>
           </div>
@@ -24,13 +24,13 @@ const Navbar = () => {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <a className="button" href='http://localhost:3000/contact'>
+                <a className="button" href='/contact'>
                   CONTACT
                 </a>
-                <a className="button" href='http://localhost:3000/team'>
+                <a className="button" href='/team'>
                   TEAM
                 </a>
-                <a className="button" href='http://localhost:3000/appointment'>
+                <a className="button" href='/appointment'>
                   SERVICES & APPOINTMENTS
                 </a>
               </div>
